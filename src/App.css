@@ -1,16 +1,35 @@
 .App {
   text-align: center;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+.App {
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style-type: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MuiCardContent-root > ul > li {
+  padding: 10px;
+}
+
+.profile-card {
+  padding: 50px;
+  margin: 50px;
+  max-width: 25rem;
+
+}
+.profile-img {
+  border-radius: 150px;
+  height: 100px;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #555555;
 }
 
 .App-header {
@@ -23,16 +42,36 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.banner {
+  background-image: url('https://kiranworkspace.com/demo/projects/code-snippets/card/profile-card/img/banner.jpg');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-card {
+  border: solid;
+  margin: 0% 30% 0% 30%;
+  padding: 0px 0px 20px 0px;
 }
+
+.contact-card > ul > li {
+  padding: 10px;
+}
+
+.icons > span {
+  padding-left: 15px
+}
+
+.icons-card {
+  padding: 10px;
+  margin-left: -47px;
+  
+}
+
+.icons > span > a > img {
+  transition: all 0.3s linear;
+}
+
+.icons > span > a:hover > img {
+  transform: scale(1.5);
+}
+
+

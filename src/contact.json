@@ -1,0 +1,12 @@
+{
+    "firstName": "Raghu",
+    "lastName": "Vara",
+    "title": "CEO",
+    "gender": "female",
+    "email": "raghuvara@myworkplace.com",
+    "work": "(555) 555-5555",
+    "mobile": "(555) 555-5555",
+    "location": "Bangalore",
+    "employeeID": "1",
+    "website": "demo.com"
+}
